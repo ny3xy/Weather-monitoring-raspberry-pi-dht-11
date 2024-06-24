@@ -13,7 +13,7 @@ thread = None
 thread_lock = Lock()
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "donsky!"
+app.config["SECRET_KEY"] = "poplol"
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 """
